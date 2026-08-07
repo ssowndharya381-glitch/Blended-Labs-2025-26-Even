@@ -1,18 +1,14 @@
-# Blended-Labs
+## Lab 1 - Introduction to AWS Identity and Access Management (IAM)  
+## Title  
+Introduction to AWS Identity and Access Management (IAM)  
 
-Lab 1 - Introduction to AWS Identity and Access Management (IAM)
-NAME : SOWNDHARYA S
-REGISTER NO: 212225220100
-## Title
-Introduction to AWS Identity and Access Management (IAM)
-
-## Objective
+## Objective  
 The objective of this lab is to understand how AWS Identity and Access Management (IAM) controls authentication and authorization in AWS. The lab focuses on exploring IAM users and groups, analyzing attached policies, assigning users to appropriate groups based on organizational roles, and validating permissions by testing service access.
 
-## Prerequisites
-Basic understanding of cloud computing concepts
+## Prerequisites  
+Basic understanding of cloud computing concepts  
 AWS Academy Lab access
-Web browser with internet connectivity
+Web browser with internet connectivity  
 ## Tools Used
 AWS Management Console
 AWS Identity and Access Management (IAM)
@@ -23,20 +19,20 @@ Task 1: Explore IAM Users and Groups
 Reviewed pre-created IAM users: user-1, user-2, user-3
 Explored IAM groups: EC2-Admin, EC2-Support, S3-Support
 Inspected managed and inline policies attached to groups
-## Screenshot:
-image
+
 ## Task 2: Add Users to Groups
 Added user-1 to the S3-Support group
 Added user-2 to the EC2-Support group
-Added user-3 to the EC2-Admin group
-## Screenshot:
+Added user-3 to the EC2-Admin group]
 
 ## Task 3: Test IAM User Permissions
 Logged in using IAM sign-in URL
 Verified S3 access for user-1
 Verified EC2 read-only access for user-2
 Verified EC2 administrative access for user-3
-## Screenshot:
+
+## screenshot
+<img width="686" height="327" alt="Screenshot 2026-08-07 153819" src="https://github.com/user-attachments/assets/9ae4efd7-385d-4cab-81cb-ebe29212d2a2" />
 
 ## Workflow
 Accessed IAM console and reviewed users and groups.
