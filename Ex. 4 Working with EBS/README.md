@@ -1,10 +1,9 @@
 # Lab 4 – Working with Amazon Elastic Block Store (EBS)
 
 ## Author
-
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: ______SOWNDHARYA S__________________________
+* **Register Number**: _____212225220100________________
+* **Date of Submission**: ____20-08-2026______________
 
 ---
 
@@ -44,8 +43,6 @@ Explore the Amazon EBS service through the EC2 dashboard. Observe different volu
 
 Create a new EBS volume in the same Availability Zone as the EC2 instance. Choose an appropriate size and volume type.
 
----
-
 ### Task 3: Attach EBS Volume to EC2 Instance
 
 Attach the created EBS volume to the running EC2 instance as an additional block device.
@@ -62,51 +59,32 @@ Connect to the EC2 instance using SSH and format the attached volume with a file
 
 Mount the formatted volume to a directory in the EC2 instance (for example, /data or /mnt/ebs).
 
----
-
 ### Task 6: Store Data in EBS Volume
 
 Create files and directories inside the mounted EBS volume and store sample data.
 
----
 
 ### Task 7: Verify Data Persistence
 
 Reboot the EC2 instance and verify that the data stored in the EBS volume is still available after reboot.
 
----
-
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
+I opened the AWS Management Console and navigated to the EC2 Dashboard.
+I checked the existing EC2 instance and noted its Availability Zone.
+I opened Elastic Block Store (EBS) → Volumes and created a new EBS volume in the same Availability Zone as the EC2 instance.
+I selected a suitable volume type such as General Purpose SSD (gp3) and specified the required storage size.
+After creating the volume, I selected it and used Attach Volume to attach it to my running EC2 instance.
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
-
----
-
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
-
----
-
 ### Screenshot 3: Mounted Volume with Data
+<img width="1600" height="758" alt="WhatsApp Image 2026-08-20 at 4 08 37 PM" src="https://github.com/user-attachments/assets/b9bed9d4-8c3c-4cc7-b056-009a1ce45b3a" />
 
-(Insert Screenshot Here)
-
----
 
 ## Result / Conclusion
 
