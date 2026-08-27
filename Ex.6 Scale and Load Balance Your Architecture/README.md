@@ -3,15 +3,15 @@
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+Author :
+your name: SOWNDHARYA S
+Reg no :212225220100
+Date :27-08-2026
 
----
 
 ## Objective
 
 The objective of this lab is to understand how to design a scalable and highly available architecture on AWS using Auto Scaling and Elastic Load Balancing. This experiment focuses on distributing incoming traffic across multiple EC2 instances, automatically scaling resources based on demand, and validating fault tolerance.
-
----
 
 ## Prerequisites
 
@@ -62,18 +62,19 @@ Students configure scaling policies based on CPU utilization using Amazon CloudW
 
 Students test the setup by generating traffic and observing automatic scaling and load distribution.
 
----
 
 ## Workflow (To be filled by Student)
-
-Describe step-by-step how you performed this experiment in your own words.
-
----
+Open the AWS Management Console and navigate to the Amazon EC2 service.
+Explore the EC2 dashboard and check Instances, AMIs, Instance Types, Key Pairs, and Security Groups.
+Launch a new EC2 instance using the Amazon Linux 2 AMI and select the t2.micro instance type.
+Provide an instance name, select/create a Key Pair, and configure a Security Group.
+Allow SSH (Port 22) access from the required IP address and HTTP (Port 80) access from anywhere.
+Launch the instance and wait until the Instance State becomes Running and the status checks are completed.
 
 ## Output Screenshots 
-
-
----
+<img width="673" height="328" alt="Screenshot 2026-08-27 095816" src="https://github.com/user-attachments/assets/52488bcf-19bb-4e26-972e-3195c67ac41c" />
+<img width="674" height="320" alt="Screenshot 2026-08-27 095836" src="https://github.com/user-attachments/assets/8205beb9-0e77-49b2-a90e-72b151b7b5e8" />
+<img width="676" height="326" alt="Screenshot 2026-08-27 095852" src="https://github.com/user-attachments/assets/f6a82ff3-4427-49ad-bc97-48bac2d25974" />
 
 
 ## Result
